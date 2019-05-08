@@ -1,7 +1,0 @@
-https://stackoverflow.com/questions/3632632/the-project-cannot-be-built-until-the-build-path-errors-are-resolved
-
-	Open the project properties
-	Select Java Build Path > Libraries
-	Add External Jar, arbitrary Jar (to be deleted later) > OK
-	The error(s) will go away
-	Remove the dummy Jar

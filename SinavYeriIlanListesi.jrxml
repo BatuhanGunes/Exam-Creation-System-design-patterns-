@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SinavYeriIlanListesi" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="aa2f77d2-1208-402d-b9b2-75ada68d20b6">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="ogrNo" class="java.lang.String"/>
+	<field name="ogrAdveSoyad" class="java.lang.String"/>
+	<field name="gozetmen" class="java.lang.String"/>
+	<field name="dersAdi" class="java.lang.String"/>
+	<field name="sinavAdi" class="java.lang.String"/>
+	<field name="salonNo" class="java.lang.String"/>
+	<field name="binaAdi" class="java.lang.String"/>
+	<field name="siraNo" class="java.lang.Integer"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="65" splitType="Stretch">
+			<staticText>
+				<reportElement x="500" y="-14" width="52" height="14" uuid="947b4525-56d3-492c-9b00-d3fff53fb8e8"/>
+				<text><![CDATA[..../..../........]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="29" width="110" height="18" uuid="71e3b658-04e4-4d73-b0ac-a668c30620ca"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="12" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Gözetmen Bilgisi :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="47" width="80" height="18" uuid="38d56610-94e5-4f1e-961a-69b7f4aa7131"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="12" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Sınav Yeri :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="40" y="18" width="480" height="1" uuid="9fbc2e1b-f3ff-4385-ba19-041fe95d1e2e"/>
+			</line>
+			<staticText>
+				<reportElement x="370" y="20" width="150" height="20" uuid="32b5088d-bbec-4793-8c07-df41dd63acef"/>
+				<textElement textAlignment="Right">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sınav Yeri İlan Listesi]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="150" y="29" width="260" height="18" uuid="c4139dda-b071-40cd-87c9-8e43760b253e"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{gozetmen}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="-8" width="280" height="26" uuid="6a6184b6-7b39-46da-bb70-5ce0a0eb1209"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom" rotation="None">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dersAdi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="284" y="-8" width="272" height="26" uuid="29b5726f-dab1-4cf4-b598-a3d91d964db4"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sinavAdi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="47" width="80" height="18" uuid="effd95bd-4285-4102-b76a-a1f1f04cb25a"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{salonNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="47" width="346" height="18" uuid="e2389bcb-1460-477b-8f95-e54358b76317"/>
+				<textElement>
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{binaAdi}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="200" y="47" width="10" height="18" uuid="d71f5a19-718b-4101-bb19-9386e843b2c7"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[/]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement x="40" y="0" width="480" height="20" uuid="e7e574f8-9417-4981-af26-9aa4b88d27a4"/>
+			</rectangle>
+			<textField>
+				<reportElement x="80" y="0" width="140" height="19" uuid="02bbc287-55ce-4002-a1ca-f1eaeb7ba624">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b86f9f78-fd98-4e58-8ddf-076122df0301"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ogrNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="221" y="0" width="298" height="19" uuid="dc5d802d-6513-4f5d-987c-c4444d7d9397">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="06c5395f-343d-4877-98bd-17f9dae82d06"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ogrAdveSoyad}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="220" y="0" width="1" height="20" uuid="86492422-145d-47a2-bc76-bc425928b212"/>
+			</line>
+			<line>
+				<reportElement x="80" y="0" width="1" height="20" uuid="891bace7-b90a-4fcd-a204-4976c68aa295"/>
+			</line>
+			<textField>
+				<reportElement x="40" y="0" width="40" height="20" uuid="b5a52150-c9a0-4582-87f2-0c27bd682d0b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{siraNo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="18">
+			<textField>
+				<reportElement x="430" y="0" width="70" height="18" uuid="59ae553a-0280-47a7-aca7-6ba674b25d5b"/>
+				<textElement textAlignment="Right">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="500" y="0" width="50" height="18" uuid="5ce0815e-59ab-4357-8a7a-d3413a8bd567"/>
+				<textElement textAlignment="Left">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
