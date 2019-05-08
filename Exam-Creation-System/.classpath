@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/commons-collections-3.2.1-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/commons-logging-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/groovy-all-2.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/itext-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/itextpdf-5.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/jasper-compiler-jdt-5.5.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/jasperreports-4.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/jcommon-1.0.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/mssql-jdbc-7.2.1.jre8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/mysql-connector-java-5.1.24-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/batu_/OneDrive/Masaüstü/Tasarım Desenleri Backup/Gerekli Dosyalar/Jars/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
